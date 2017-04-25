@@ -1,6 +1,6 @@
 # npmtest-preact
 
-#### test coverage for  [preact (v8.1.0)](https://github.com/developit/preact)  [![npm package](https://img.shields.io/npm/v/npmtest-preact.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-preact) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-preact.svg)](https://travis-ci.org/npmtest/node-npmtest-preact)
+#### basic test coverage for  [preact (v8.1.0)](https://github.com/developit/preact)  [![npm package](https://img.shields.io/npm/v/npmtest-preact.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-preact) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-preact.svg)](https://travis-ci.org/npmtest/node-npmtest-preact)
 
 #### Fast 3kb React alternative with the same ES6 API. Components & Virtual DOM.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-preact/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-preact/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-preact/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-preact/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-preact/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-preact/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-preact/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-preact/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-preact/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-preact/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-preact/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-preact/build/coverage.html/index.html)
 
@@ -165,7 +165,8 @@
         "transpile:main": "rollup -c config/rollup.config.js -m dist/preact.dev.js.map -n preact -o dist/preact.dev.js"
     },
     "typings": "./dist/preact.d.ts",
-    "version": "8.1.0"
+    "version": "8.1.0",
+    "bin": {}
 }
 ```
 
